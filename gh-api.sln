@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouseApp.Api", "GreenHouseApp.Api\GreenHouseApp.Api.csproj", "{6F78BDFB-567B-4D4B-97E8-4987B420A266}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouseApp.Domain", "GreenHouseApp.Domain\GreenHouseApp.Domain.csproj", "{8F159B95-8169-4C32-8D35-99B5129B965F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouseApp.Shared", "GreenHouseApp.Shared\GreenHouseApp.Shared.csproj", "{3E5064C9-8E48-4044-BA53-84D68F444104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{E31E01A5-38AC-4E30-8109-70D1282A1C4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouseApp.Data", "GreenHouseApp.Data\GreenHouseApp.Data.csproj", "{2B49F043-7032-416E-BFB8-8B168CBC48E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{6F78BDFB-567B-4D4B-97E8-4987B420A266}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F78BDFB-567B-4D4B-97E8-4987B420A266}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F78BDFB-567B-4D4B-97E8-4987B420A266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F159B95-8169-4C32-8D35-99B5129B965F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F159B95-8169-4C32-8D35-99B5129B965F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F159B95-8169-4C32-8D35-99B5129B965F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F159B95-8169-4C32-8D35-99B5129B965F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5064C9-8E48-4044-BA53-84D68F444104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5064C9-8E48-4044-BA53-84D68F444104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5064C9-8E48-4044-BA53-84D68F444104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5064C9-8E48-4044-BA53-84D68F444104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31E01A5-38AC-4E30-8109-70D1282A1C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31E01A5-38AC-4E30-8109-70D1282A1C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31E01A5-38AC-4E30-8109-70D1282A1C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31E01A5-38AC-4E30-8109-70D1282A1C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B49F043-7032-416E-BFB8-8B168CBC48E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B49F043-7032-416E-BFB8-8B168CBC48E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B49F043-7032-416E-BFB8-8B168CBC48E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B49F043-7032-416E-BFB8-8B168CBC48E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
