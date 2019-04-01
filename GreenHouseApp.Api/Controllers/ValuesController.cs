@@ -32,7 +32,7 @@ namespace GreenHouseApp.Api.Controllers
         public ActionResult<string> Get(int id)
         {
             // Used for testing
-            InsertColor();
+            //InsertColor();
             return "value";
         }
 
