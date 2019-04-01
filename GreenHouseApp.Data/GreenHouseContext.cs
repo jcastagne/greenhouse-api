@@ -1,5 +1,8 @@
 ﻿using GreenHouseApp.Domain;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Console;
+using Microsoft.Extensions.Configuration;
 
 namespace GreenHouseApp.Data
 {
@@ -15,11 +18,8 @@ namespace GreenHouseApp.Data
             :base(options)
         { }
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer(
-        //        "Data Source=shadow-n81qhuih;Initial Catalog=GreenHousedb;Integrated Security=True");
-        //    base.OnConfiguring(optionsBuilder);
-        //}
+         public GreenHouseContext()
+            :base()
+        { }        
     }
 }
